@@ -1,6 +1,8 @@
 The OpenTokHello sample app
 ===========================
 
+***Important:*** Be sure to git clone with --recursive to grab the required OpenTok iOS SDK submodule!
+
 The OpenTokHello sample app is a basic sample app that shows the most basic features of the OpenTok iOS SDK.
 
 Once the app connects to the OpenTok session, it publishes an audio-video stream, which is displayed onscreen. Then, the audio-video stream shows up as a subscribed stream (along with any other streams currently in the session).
