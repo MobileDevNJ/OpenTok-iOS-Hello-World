@@ -5,7 +5,7 @@ The OpenTokHello sample app is a basic sample app that shows the most basic feat
 
 Once the app connects to the OpenTok session, it publishes an audio-video stream, which is displayed onscreen. Then, the audio-video stream shows up as a subscribed stream (along with any other streams currently in the session).
 
-Before you test the sample app, be sure to read [Using the OpenTok iOS SDK](Using_iOS.html).
+Before you test the sample app, be sure to read [Using the OpenTok iOS SDK](http://www.tokbox.com/opentok/ios/docs/docs/Using_iOS.html).
 
 Testing the sample app
 ----------------------
@@ -50,7 +50,7 @@ Understanding the code
 
 The ViewController.m file contains the main implementation code that includes use of the OpenTok iOS API.
 
-### Initializing an [OTSession](raw:OTSession) object and connecting to an OpenTok session
+### Initializing an OTSession object and connecting to an OpenTok session
 
 When the view initially loads, the app allocates an OTSession object and sends it the `[OTSession initWithSessionId:andDelegate:]` message:
 
@@ -192,7 +192,7 @@ Finally, when the app disconnects from the session, the OTSubscriber's delegate 
 
 ## Next steps
 
-The [OpenTokBasic sample app](OpenTokBasic.html) uses more features of the OpenTok iOS SDK than the OpenTokHello app does.
+The [OpenTokBasic sample app](https://github.com/opentok/OpenTok-iOS-Basic-Tutorial) uses more features of the OpenTok iOS SDK than the OpenTokHello app does.
 
-For details on the full OpenTok iOS API, see the [reference documentation](../index.html).
+For details on the full OpenTok iOS API, see the [reference documentation](http://www.tokbox.com/opentok/ios/docs/index.html).
 
